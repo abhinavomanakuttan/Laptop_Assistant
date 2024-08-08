@@ -24,4 +24,22 @@
     import wikipedia
     print wikipedia.summary("Wikipedia")
 
+<h4>PyAudio</h4>
+    #pip install PyAudio<br>
+    PyAudio provides Python bindings for PortAudio v19, the cross-platform audio I/O library. With PyAudio, you can easily use Python to play and record audio on a variety of platforms, such as GNU/Linux,         
+    Microsoft Windows, and Apple macOS.
+    <br><br>
+    Windows
+    
+    python -m pip install pyaudio
+
+<br>
+This installs the precompiled PyAudio library with PortAudio v19 19.7.0 included. The library is compiled with support for Windows MME API, DirectSound, WASAPI, and WDM-KS. It does not include support for ASIO. If you require support for APIs not included, you will need to compile PortAudio and PyAudio.
+
+  macOS<br>
+  Use Homebrew to install the prerequisite portaudio library, then install PyAudio using pip:
+
+    brew install portaudio
+    pip install pyaudio
+
 
