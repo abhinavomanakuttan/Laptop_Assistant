@@ -48,10 +48,18 @@ This installs the precompiled PyAudio library with PortAudio v19 19.7.0 included
     brew install portaudio
     pip install pyaudio
 
+<br><br>
+GNU/Linux
+Use the package manager to install PyAudio. For example, on Debian-based systems:
+
+    sudo apt install python3-pyaudio
+
 <br><br> For Windows <br><br>
  Download  Pywin32 in PyCham 
 
- <br><br>
+ 
+<h3>Code </h3>
+ <br>
  For Mac 
 
     def say(text):
